@@ -496,7 +496,8 @@ body .container nav {
 
 nav ol {
 	
-	margin-left: 1%;
+	margin-left:auto;
+	margin-right: auto;
 }
 
 li details {
