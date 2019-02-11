@@ -174,8 +174,10 @@ a {
 
 @media only screen and (max-width: 40.5em) {
 	
-	nav{
-		display: none;	}
+	nav .fistPage{
+		
+		display: none;	
+	}
 
 	.menu-btn {
 		
