@@ -28,8 +28,10 @@
 
 <body class="page1">
 
-	<header id="banner">
+	<div id="menu-close" class="close_hide" onclick="myFunction()"></div>
 
+	<header id="banner">
+	
 		<img class="crabimg crab1" src="images.jpg" alt="Crab in the sea">
 
 		<img class="crabimg crab2" src="SpiderCrab.jpg" alt="Crab in the sea 2">
@@ -77,17 +79,12 @@
 	
 	</header>
 
-		<main role="main">
+	<div>
 		
-			<p><strong>Crabs</strong> are decapod crustaceans of the infraorder <i>Brachyura</i> , which typically have a very short projecting "tail" (abdomen) (Greek: βραχύς, translit. <em>brachys</em> = short, οὐρά / <em>οura</em>  = tail), usually entirely hidden under the thorax. They live in all the world's oceans, in fresh water, and on land, are generally covered with a thick exoskeleton and have a single pair of claws. Many other animals with similar names – such as hermit crabs, king crabs, porcelain crabs, horseshoe crabs, and crab lice – are not true crabs. </p>
+		<button id="button" class="menu-btn" onclick="myFunction()">Menu</button>
 
-		</main>
-
-	<nav>
-
-	<h2>Topics On The Crabs</h2>
-	
-		<ul class="ulfirstpage">
+		<ul id="list" class="hidden menu">
+				
 			<li><a href="1-4Topics.html">How crabs evolved</a> </li>
 			<li><a href="1-4Topics.html">Sexual dimorphism</a></li>
 			<li><a href="1-4Topics.html">Reproduction and lifecycle</a></li>
@@ -96,7 +93,33 @@
 			<li><a href="5-7Topics.html">Classification</a></li>
 			<li><a href="5-7Topics.html">Cultural influences</a></li>
 			<li><a href="pictures.html">Pictures of crabs</a></li>
+
 		</ul>
+
+	</div>
+
+	<main role="main">
+		
+		<p><strong>Crabs</strong> are decapod crustaceans of the infraorder <i>Brachyura</i> , which typically have a very short projecting "tail" (abdomen) (Greek: βραχύς, translit. <em>brachys</em> = short, οὐρά / <em>οura</em>  = tail), usually entirely hidden under the thorax. They live in all the world's oceans, in fresh water, and on land, are generally covered with a thick exoskeleton and have a single pair of claws. Many other animals with similar names – such as hermit crabs, king crabs, porcelain crabs, horseshoe crabs, and crab lice – are not true crabs. </p>
+
+	</main>
+
+	<nav>
+
+		<h2 id="nav-jump">Topics On The Crabs
+		
+			<ul class="ulfirstpage">
+				<li><a href="1-4Topics.html">How crabs evolved</a> </li>
+				<li><a href="1-4Topics.html">Sexual dimorphism</a></li>
+				<li><a href="1-4Topics.html">Reproduction and lifecycle</a></li>
+				<li><a href="1-4Topics.html">Behavior</a></li>
+				<li><a href="5-7Topics.html">Human consumption</a></li>
+				<li><a href="5-7Topics.html">Classification</a></li>
+				<li><a href="5-7Topics.html">Cultural influences</a></li>
+				<li><a href="pictures.html">Pictures of crabs</a></li>
+			</ul>
+
+		</h2>
 
 	</nav>
 
@@ -107,6 +130,11 @@
 		</p>
 
 	</footer>
+	
+	<script src="js/main.js" async >
+		
+
+	</script>
 
 </body>
 

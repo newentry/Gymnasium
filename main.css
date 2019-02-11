@@ -156,6 +156,99 @@ a {
 	
 }
 
+@media only screen and (min-width: 40.5em){
+
+	.hidden {
+		display: none;
+	}
+
+	.menu-btn {
+		display: none;
+	}
+
+	#menu-close {
+		display: none;
+	}
+
+}
+
+@media only screen and (max-width: 40.5em) {
+	
+	nav{
+		display: none;	}
+
+	.menu-btn {
+		
+		position: fixed;
+		top: 2%;
+		right: 5%;
+		background-color: #008CBA;
+		color: white;
+		padding: 10px 24px;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 12px;
+		margin: 4px 2px;
+		cursor: pointer;
+	}
+
+	.menu-btn--left {
+		
+		right: 70%;
+		z-index: 2;
+
+	}
+
+	.hidden {
+		display: none;
+	}
+
+	.menu {
+		background-color: azure;
+		padding-left: 10px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		width: 75%;
+		left: 32%;
+		list-style: none;
+		position: fixed;
+		top: 0%;
+		bottom: 0%;
+		
+	}
+	
+	.menu a:hover {
+		background-color: grey;
+	}
+
+	.menu a:visited {
+		color: black;
+	}
+
+	.menu a {
+		border-bottom: 1px solid black;
+		margin-top: 10px;
+		display: block;
+		color: black;
+
+	}
+
+	.close_hide {
+		display: none;
+	}
+
+	.menu-close {
+		display: block;
+		position: absolute;
+		width: 32%;
+		height: 204%;
+		background-color: grey;
+		opacity: 0.5;
+		z-index: 1;
+		cursor: pointer;
+	}
+}
+
 @media only screen and (max-width: 349px) {
 
 	nav h2 {
@@ -360,21 +453,21 @@ a {
 
 @media only screen and (max-width: 1899px) and (min-width: 1700px) {
 
-.crab1 {
+	.crab1 {
 		width: 300px;
 		height: 300px;
 		top: 35%;
 		right: 83%;
 	}
 
-.crab2 {
+	.crab2 {
 		width: 300px;
 		height: 300px;
 		top: 36%;
 		left: -24%;
 	}
 
-.crab3 {
+	.crab3 {
 		width: 300px;
 		height: 300px;
 		top: 35%;
@@ -456,7 +549,7 @@ li {
 
 .ulfirstpage {
 	font-weight: bold;
-	font-size: 1.3em;
+	font-size: 0.7em;
 	font-family: 'Indie Flower', cursive;
 	text-align: center;
 	list-style: none;
@@ -558,11 +651,11 @@ section {
 }
 
 .gallery {
-  max-width: 800px;
-  box-sizing: border-box;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 4em;
+	max-width: 800px;
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 4em;
 }
 
 .gallery img {
@@ -575,10 +668,10 @@ section {
 
 .gallery img:hover {
 
-  -ms-transform: scale(1.1); 
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-  border: 0px solid #ccc;
+	-ms-transform: scale(1.1); 
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	border: 0px solid #ccc;
 }
 
 @media only screen and (max-width: 385px) {
@@ -595,7 +688,7 @@ section {
 	.gallery img {
 		width: 48%;
 		height: auto;
+		background-size: 
 	}
 
 }
-
